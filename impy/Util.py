@@ -92,6 +92,8 @@ class Util(object):
     # Logic
     if (filename.endswith(".jpg")):
       return ".jpg"
+    elif (filename.endswith(".jpeg")):
+      return ".jpeg"
     elif (filename.endswith(".png")):
       return ".png"
     else:
